@@ -1,0 +1,99 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Arquivos e diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração da IDE
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de build do Maven
+target/
+*.log
+
+# Arquivos de configuração do Maven
+*.jar
+*.war
+*.ear
+
+# Diretórios e arquivos do Gradle
+.gradle/
+build/
+
+# Arquivos de dependências
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos temporários do IntelliJ
+*.class
+*.log
+*.tmp
+
+# Arquivos de configuração do Spring Boot
+*.properties
+*.yml
+*.yaml
+
+# Arquivos gerados pela construção e IDE
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.class
+
+# Arquivos de configuração do usuário
+*.suo
+*.user
+*.userosscache
+*.suo
+*.swp
+*.swo
+
+# Configurações do sistema
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Outros arquivos e diretórios específicos
+*.local
+*.env
+.env/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
